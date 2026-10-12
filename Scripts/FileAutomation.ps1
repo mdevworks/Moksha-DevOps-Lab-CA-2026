@@ -3,7 +3,7 @@
 # ============================================
 
 # Project folders
-$ProjectPath = "D:\Desktop\PowerShell_File_Automation"
+$ProjectPath = Split-Path -Parent $PSScriptRoot
 
 $SourcePath = "$ProjectPath\Inbox"
 $OrganizedPath = "$ProjectPath\Organized"
